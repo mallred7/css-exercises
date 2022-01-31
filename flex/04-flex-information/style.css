@@ -24,3 +24,33 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+/* SOLUTION STYLES */
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+img {
+  margin: 8px;
+}
+
+.content {
+  display: flex;
+  margin: 32px;
+  gap: 8px 52px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  
+}
+
+.text {
+  text-align: center;
+}
